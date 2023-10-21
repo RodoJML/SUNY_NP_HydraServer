@@ -15,7 +15,7 @@
             <img class="HydraLabLogo" src="./assets/images/HydraLabLogo.png" alt="HydraLabLogo">
         </div>
 
-        <?php include './navbar.php'?>
+        <?php include './assets/components/navbar.php'?>
     </div>
     
 </body>
