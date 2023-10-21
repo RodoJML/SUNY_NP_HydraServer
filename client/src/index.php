@@ -31,9 +31,18 @@
     </div>
 
 
-    <div class="indexMainBody">
+    <div class="indexMainPic">
         <img src="./assets/images/Hydralabpic.png" alt="Hydralabpic">
     </div>
+
+
+    <div class="indexLabHoursSection">
+        <h1>Lab Hours</h1>
+        
+    </div>
+
+
+
     
 </body>
 
