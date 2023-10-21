@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
-<body>
+<body>    
     <div>
-
         <div class="Logo">
             <img class="HydraLabLogo" src="./assets/images/HydraLabLogo.png" alt="HydraLabLogo">
         </div>
 
-        <?php include './assets/componets/navbar.php'; ?>
-
+        <?php include './navbar.php'?>
     </div>
     
 </body>
