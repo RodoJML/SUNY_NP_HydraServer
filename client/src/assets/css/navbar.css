@@ -1,5 +1,31 @@
-.topnav{
+ul { 
     list-style-type: none;
     margin: auto;
-    width: 50%;
+    overflow: hidden;
+    width: 75%;
+    display: flex;
 }
+
+li {
+    margin: auto;
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+li a:hover {
+
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #807BE5;
+    /* border-bottom: 1px solid currentColor; */
+  }

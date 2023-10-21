@@ -7,6 +7,7 @@
     
     <!-- Loading CSS  -->
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
 </head>
 
 <body>    
@@ -17,12 +18,12 @@
 
 
         <ul class="topnav">
-            <li> <a>Server Request</a> </li>
-            <li> <a>About</a> </li>
-            <li> <a>Calendar<a> </li>
-            <li> <a>Lab Rules<a> </li>
-            <li> <a>Clubs<a> </li>
-            <li> <a>Resources<a> </li>
+                <li> <a>Server Request</a> </li>
+                <li> <a>Calendar</a> </li>
+                <li> <a>About</a> </li>
+                <li> <a>Lab Rules</a> </li>
+                <li> <a>Clubs</a> </li>
+                <li> <a>Resources</a> </li>
         </ul>
 
     </div>
