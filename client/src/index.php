@@ -15,17 +15,16 @@
             <img class="HydraLabLogo" src="./assets/images/HydraLabLogo.png" alt="HydraLabLogo">
         </div>
 
-        <?php include './assets/components/navbar.php'?>
 
         <ul class="topnav">
-            <a>Home</a>
-            <a>Server Request</a>
-            <a>About</a>
-            <a>Calendar<a>
-            <a>Lab Rules<a>
-            <a>Clubs<a>
-            <a>Resources<a>
+            <li> <a>Server Request</a> </li>
+            <li> <a>About</a> </li>
+            <li> <a>Calendar<a> </li>
+            <li> <a>Lab Rules<a> </li>
+            <li> <a>Clubs<a> </li>
+            <li> <a>Resources<a> </li>
         </ul>
+
     </div>
     
 </body>
