@@ -39,6 +39,14 @@
     <div class="indexLabHoursSection">
         <h1>Lab Hours</h1>
         
+        <div class="grid-container">
+            <div class="grid-item">Monday: 11:00 AM - 03:00 PM</div>
+            <div class="grid-item">Tuesday: 11:00 AM - 02:00 PM</div>
+            <div class="grid-item">Wednesday: 12:00 AM - 05:00 PM</div>
+            <div class="grid-item">Thursday: 11:00 AM - 03:00 PM</div>
+            <div class="grid-item">Friday: 01:00 PM - 06:00 PM</div>
+            <div class="grid-item">Saturday / Sunday: Closed</div>
+        </div>
     </div>
 
 

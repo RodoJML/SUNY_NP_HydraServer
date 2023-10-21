@@ -52,4 +52,10 @@
     padding: 0;
     color: white;
     text-align: center;
+    font-family: monospace;
+    font-style: normal;
+}
+
+.indexLabHoursSection .grid-container{
+    display: inline-grid;
 }
