@@ -1,4 +1,4 @@
-ul { 
+.topnav { 
     list-style-type: none;
     margin: auto;
     overflow: hidden;
@@ -6,12 +6,12 @@ ul {
     display: flex;
 }
 
-li {
+.topnav li {
     margin: auto;
     float: left;
 }
 
-li a {
+.topnav li a {
     display: block;
     text-align: center;
     padding: 0.5rem;
@@ -22,7 +22,7 @@ li a {
     border-bottom-color: white;
 }
 
-li a:hover {
+.topnav li a:hover {
 
     border-bottom-width: 2.5px;
     border-bottom-style: solid;
