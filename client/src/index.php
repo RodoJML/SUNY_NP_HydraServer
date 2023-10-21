@@ -16,6 +16,16 @@
         </div>
 
         <?php include './assets/components/navbar.php'?>
+
+        <ul class="topnav">
+            <a>Home</a>
+            <a>Server Request</a>
+            <a>About</a>
+            <a>Calendar<a>
+            <a>Lab Rules<a>
+            <a>Clubs<a>
+            <a>Resources<a>
+        </ul>
     </div>
     
 </body>
