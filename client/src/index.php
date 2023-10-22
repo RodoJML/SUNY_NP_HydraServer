@@ -62,9 +62,38 @@
 
     </div>
 
+    <div class="indexAnnouncementsSection">
+        
+        <br/><br/>
+        <h1 class="Heading">Announcements</h1>
+
+        <div class="grid-container">
+            <div class="grid-item1">
+                <img src="https://helios-i.mashable.com/imagery/articles/07CIEf4aHNEhXeK7MSpNYt5/hero-image.fill.size_1248x702.v1648747007.jpg" alt="Avatar" style="width:100%">
+            </div>
+            <div class="grid-item2">
+                <h1 class="announcementTitle"> Example Announcement</h1>
+                <p class="announcementText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <br/><br/>
+
+    <div class="indexFooter">
+        <div class="indexFooterText">
+            <p>Hydra Lab</p>
+            <p>Computer Science Department</p>
+            <p>State University of New York at New Paltz</p>
+
+            <br/><br/><br/>
+            <p>DISCLAIMER: The view and opinions expressed by the authors and other contributors to this website are theirs alone, and do not necessarily reflect the official policies or positions of SUNY New Paltz or any employee thereof.</p>
+        </div>
 
 
-    
+    </div>
+
 </body>
 
 </html>
