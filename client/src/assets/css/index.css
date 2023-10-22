@@ -48,7 +48,7 @@
 }
 
 .indexLabHoursSection h1{
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     color: white;
     text-align: center;
@@ -57,5 +57,16 @@
 }
 
 .indexLabHoursSection .grid-container{
-    display: inline-grid;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0.5rem;
+    width: 50%;
+    margin: auto;
 }
+
+.indexLabHoursSection .grid-item{
+    color: white;
+    text-align: right;
+    font-family: monospace;
+}
+

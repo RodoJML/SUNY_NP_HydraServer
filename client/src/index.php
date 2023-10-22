@@ -7,8 +7,6 @@
     
     <!-- Loading CSS  -->
     <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="./assets/css/navbar.css">
-    <link rel="stylesheet" href="./assets/css/mainbody.css">
 </head>
 
 <body>    
@@ -37,16 +35,31 @@
 
 
     <div class="indexLabHoursSection">
-        <h1>Lab Hours</h1>
         
+        <br/><br/> 
+        <h1>Lab Hours</h1>
+
         <div class="grid-container">
-            <div class="grid-item">Monday: 11:00 AM - 03:00 PM</div>
-            <div class="grid-item">Tuesday: 11:00 AM - 02:00 PM</div>
-            <div class="grid-item">Wednesday: 12:00 AM - 05:00 PM</div>
-            <div class="grid-item">Thursday: 11:00 AM - 03:00 PM</div>
-            <div class="grid-item">Friday: 01:00 PM - 06:00 PM</div>
-            <div class="grid-item">Saturday / Sunday: Closed</div>
+            <div class="grid-item">Monday: </div>
+            <div class="grid-item">11AM - 03PM</div>
+
+            <div class="grid-item">Thursday: </div>
+            <div class="grid-item">11AM - 03PM</div>
+            
+            <div class="grid-item">Tuesday: </div>
+            <div class="grid-item">11AM - 02PM</div>
+
+            <div class="grid-item">Friday: </div>
+            <div class="grid-item">01PM - 06PM</div>
+
+            <div class="grid-item">Wednesday: </div>
+            <div class="grid-item">12AM - 05PM</div>
+
+            <div class="grid-item">Sat/Sun: </div>
+            <div class="grid-item">Closed</div>
         </div>
+        <br/><br/><br/> 
+
     </div>
 
 
