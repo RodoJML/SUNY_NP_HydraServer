@@ -69,7 +69,7 @@
 
         <div class="grid-container">
             <div class="grid-item1">
-                <img src="https://helios-i.mashable.com/imagery/articles/07CIEf4aHNEhXeK7MSpNYt5/hero-image.fill.size_1248x702.v1648747007.jpg" alt="Avatar" style="width:100%">
+                <img src="https://blog.purelyhr.com/wp-content/uploads/2017/06/BauBnb-e1506104164697.jpg" alt="Avatar" style="width:100%">
             </div>
             <div class="grid-item2">
                 <h1 class="announcementTitle"> Example Announcement</h1>
