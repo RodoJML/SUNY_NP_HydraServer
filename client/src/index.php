@@ -15,6 +15,8 @@
             <img class="HydraLabLogo" src="./assets/images/HydraLabLogo.png" alt="HydraLabLogo">
         </div>
 
+        <?php include './assets/components/navbar.php'; ?>
+
         <!-- This should be on a separate component, will be added once PHP is installed -->
         <ul class="topnav">
                 <li> <a>Home</a> </li>
@@ -82,15 +84,33 @@
     <br/><br/>
 
     <div class="indexFooter">
-        <div class="indexFooterText">
-            <p>Hydra Lab</p>
-            <p>Computer Science Department</p>
-            <p>State University of New York at New Paltz</p>
 
-            <br/><br/><br/>
-            <p>DISCLAIMER: The view and opinions expressed by the authors and other contributors to this website are theirs alone, and do not necessarily reflect the official policies or positions of SUNY New Paltz or any employee thereof.</p>
+        <div class="grid-container">
+
+            <div class="grid-container1">
+                <div class="grid-item1"><a href="/~rodolfo/SUNY_NP_HydraServer/client/src/">Home</a></div>
+                <div class="grid-item1"><a>Server Request</a></div>
+                <div class="grid-item1"><a>About</a></div>
+                <div class="grid-item1"><a>Calendar</a></div>
+                <div class="grid-item1"><a>Facilities</a></div>
+                <div class="grid-item1"><a>Clubs</a></div>
+            </div>
+            
+            <div class="grid-container2">
+                <div class="grid-item2">Computer Science</div>
+                <div class="grid-item2">Hydra Lab</div>
+                <div class="grid-item2">SUNY New Paltz</div>
+                <div class="grid-item2">Science Hall 260</div>
+                <div class="grid-item2">&nbsp</div>
+                <div class="grid-item2">&nbsp</div>
+            </div>
+
+            <div class="grid-item3">DISCLAIMER: <br/> The view and opinions expressed by the authors and other contributors to this website are theirs alone, and do not necessarily reflect the official policies or positions of SUNY New Paltz or any employee thereof.</div>
+
+
         </div>
-
+        
+        <br/> <br/>
 
     </div>
 
