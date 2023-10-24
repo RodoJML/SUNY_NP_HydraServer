@@ -1,0 +1,47 @@
+.footer{
+    background-color: #807BE5;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: monospace;
+}
+
+.footer .grid-container{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2rem;
+    width: 100%;
+    margin: auto;
+}
+
+.footer .grid-container1{
+    margin-left: 3rem;
+    text-align: left;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.footer .grid-container2{
+    margin-right: 3rem;
+    text-align: left;
+    grid-column: 4;
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.footer .grid-item3{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    grid-column: 1/5;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}

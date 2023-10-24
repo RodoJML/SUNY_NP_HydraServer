@@ -1,0 +1,30 @@
+.navbar { 
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    width: 75%;
+    display: flex;
+}
+
+.navbar li {
+    margin: auto;
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.navbar li a:hover {
+
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #807BE5;
+}

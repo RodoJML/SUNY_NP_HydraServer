@@ -1,0 +1,26 @@
+.labhours{
+    background-color: #807BE5;
+}
+
+.labhours h1{
+    margin-top: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+}
+
+.labhours .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0.5rem;
+    width: 50%;
+    margin: auto;
+}
+
+.labhours .grid-item{
+    color: white;
+    text-align: right;
+    font-family: monospace;
+}
