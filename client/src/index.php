@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/index/index.css">
     <link rel="stylesheet" href="./assets/css/index/labhours.css">
     <link rel="stylesheet" href="./assets/css/index/announcements.css">
+    <link rel="stylesheet" href="./assets/css/serverRequest/serverRequest.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     
@@ -20,6 +21,7 @@
     <div>
         <?php include './assets/components/template/header.php'; ?>
         <?php include './assets/components/template/navbar.php'; ?>
+        <div class="displayArea" style="display: none"></div>
         <img class="indexMainPic" src="./assets/images/Hydralabpic.png">
         <?php include './assets/components/index/labhours.php'; ?>
         <?php include './assets/components/index/announcements.php'; ?>

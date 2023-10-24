@@ -32,10 +32,10 @@
                 $.ajax({
                     type: "GET",
                     url: "assets/components/serverRequest/serverRequest.php",
-                    data: {serverRequest: 1},
+                    data: {serverRequest: true},
                     dataType: "json",
                     success: function (response) {
-                        console.log(response);
+                        $(".displayArea").append(response.content).slideDown().show('slow');
                     }
                 });
             });
