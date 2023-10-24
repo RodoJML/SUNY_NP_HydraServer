@@ -28,7 +28,14 @@
         $(document).ready(function () {
             $("#requestServer").click(function (e) { 
                 e.preventDefault();
-                console.log("Request Server Clicked");
+                $.ajax({
+                    type: "GET",
+                    url: "assets/components/serverRequest/serverRequest.php",
+                    dataType: "json",
+                    success: function (response) {
+                        console.log("what is happening");
+                    }
+                });
             });
         });
 </script>
