@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <ul class="navbar">
-                <li><a>Home</a></li>
+                <li><a href="../src/index.php">Home</a></li>
                 <li><a id="requestServer">Server Request</a></li>
                 <li><a>About</a></li>
                 <li><a>Calendar</a></li>

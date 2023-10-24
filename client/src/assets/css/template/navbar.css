@@ -20,6 +20,8 @@
     border-bottom-width: 2.5px;
     border-bottom-style: solid;
     border-bottom-color: white;
+    text-decoration: none;
+    color: black;
 }
 
 .navbar li a:hover {
