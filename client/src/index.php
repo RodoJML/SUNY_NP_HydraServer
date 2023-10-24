@@ -27,11 +27,6 @@
         <?php include './assets/components/template/footer.php'; ?>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            console.log("ready!");
-        });
-    </script>
 </body>
 
 </html>

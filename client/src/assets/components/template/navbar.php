@@ -6,16 +6,26 @@
     <title>NavBar</title>
 </head>
 <body>
+    <div class="container">
+        <ul class="navbar">
+            <li><a>Home</a></li>
+            <li><a id="requestServer">Server Request</a></li>
+            <li><a>About</a></li>
+            <li><a>Calendar</a></li>
+            <li><a>Lab Rules</a></li>
+            <li><a>Clubs</a></li>
+            <li><a>Resources</a></li>
+        </ul>
+    </div>
 
-    <ul class="navbar">
-        <li><a>Home</a></li>
-        <li><a>Server Request</a></li>
-        <li><a>About</a></li>
-        <li><a>Calendar</a></li>
-        <li><a>Lab Rules</a></li>
-        <li><a>Clubs</a></li>
-        <li><a>Resources</a></li>
-    </ul>
+    <script>
+        $(document).ready(function () {
+            $(#requestServer).click(function (e) { 
+                e.preventDefault();
+                console.log("Request Server Clicked");
+            });
+        });
+    </script>
     
 </body>
 </html>
