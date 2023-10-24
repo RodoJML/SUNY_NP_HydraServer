@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="./assets/css/index/index.css">
     <link rel="stylesheet" href="./assets/css/index/labhours.css">
     <link rel="stylesheet" href="./assets/css/index/announcements.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>SUNY New Paltz | Hydra Lab - Computer Science</title>
 </head>
 
