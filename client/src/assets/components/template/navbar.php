@@ -28,12 +28,14 @@
         $(document).ready(function () {
             $("#requestServer").click(function (e) { 
                 e.preventDefault();
+
                 $.ajax({
                     type: "GET",
                     url: "assets/components/serverRequest/serverRequest.php",
+                    data: {serverRequest: 1},
                     dataType: "json",
                     success: function (response) {
-                        console.log("what is happening");
+                        console.log(response);
                     }
                 });
             });
