@@ -1,4 +1,11 @@
+body {
+    background-image: url("../../images/pattern.png");
+    background-size: 22rem;
+}
+
 img.indexMainPic{
     max-width:100%;
     margin-top: 2rem;
 }
+
+

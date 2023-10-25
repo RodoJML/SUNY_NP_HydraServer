@@ -18,7 +18,7 @@
 </head>
 
 <body>    
-    <div>
+    <div class="bodyContainer">
         <?php include './assets/components/template/header.php'; ?>
         <?php include './assets/components/template/navbar.php'; ?>
         <div class="displayArea" style="display: none"></div>
