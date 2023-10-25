@@ -3,6 +3,7 @@
     color: white;
     text-align: center;
     padding: 1rem;
+    padding-bottom: 2rem;
     font-family: monospace;
 }
 
@@ -21,15 +22,15 @@
     grid-column: 1;
     display: grid;
     grid-template-columns: auto;
-    width: 100%;
+
 }
 
 .footer .grid-container2{
-    text-align: left;
+    margin-right: 3rem;
+    text-align: right;
     grid-column: 4;
     display: grid;
     grid-template-columns: auto;
-    width: 100%;
 }
 
 .footer .grid-container3{
@@ -39,20 +40,18 @@
 }
 
 .footer .newpaltzlogo{
-    margin-left: -6rem;
     max-width: 14rem;
     width: 100%;
     text-align: center;
 }
 
-.footer .grid-item3{
-    margin-top: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+.disclaimer{
+    padding: 1rem;
+    background-color: #635faf;
     text-align: center;
-    font-style: italic;
-    grid-column: 1/5;
     color:  white;
+    font-family: monospace;
+    font-size: 0.6rem;
 }
 
 .footer a{
