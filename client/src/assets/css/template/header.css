@@ -1,6 +1,16 @@
-.header.HydraLabLogo{
+.header .HydraLabLogo{
     margin: 2rem;
     max-width: 25rem;
     width: 100%;
     height: auto;
+}
+
+.header .HydraLabGif{
+    margin-left: 1rem;
+    margin-bottom: 1.8rem;
+    margin-right: -1.6rem;
+    max-width: 4rem;
+    width: 100%;
+    height: auto;
+    align-items: center;
 }

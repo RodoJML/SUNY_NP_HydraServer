@@ -18,6 +18,10 @@
                 <div class="grid-item1"><a>Facilities</a></div>
                 <div class="grid-item1"><a>Clubs</a></div>
             </div>
+
+            <div class="grid-container3">
+                <img class="newpaltzlogo" src="./assets/images/newpaltzlogo.png" alt="">
+            </div>
             
             <div class="grid-container2">
                 <div class="grid-item2">Computer Science</div>
