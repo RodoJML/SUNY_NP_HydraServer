@@ -1,7 +1,7 @@
 <?php
     header("Content-Type: application/json");
     
-    if($_GET["modalEnabled"] == 1){
+    if(isset($_GET["modalEnabled"])){
         echo json_encode(["content" => 
         "
             <div class=\"serverRequest\">
@@ -21,9 +21,8 @@
                 </div>
             </div>
         "]);
-    } else {
-        echo json_encode(["content" => "<h1>Server Request Modal Disabled</h1>"]);
     }
+    
 ?>
 
 
