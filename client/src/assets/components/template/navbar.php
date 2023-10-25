@@ -26,6 +26,8 @@
 
 <script>
 
+    // This script allows to show and hide the server request modal window
+    
         $(document).ready(function () {
             $("#requestServer").click(function (e) { 
                 e.preventDefault();
@@ -50,9 +52,10 @@
                         else{
                             sessionStorage.setItem("modalEnabled", response.modalEnabled);
                             $(".displayArea").slideUp().hide('slow');
-                            $(".displayArea").empty();
-                        }
-                            
+                            $(".displayArea").fadeOut(300, function(){
+                                $(".displayArea").empty();
+                            });
+                        } 
                     }
                 });
             });

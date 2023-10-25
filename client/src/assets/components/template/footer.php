@@ -12,7 +12,7 @@
 
             <div class="grid-container1">
                 <div class="grid-item1"><a href="/~rodolfo/SUNY_NP_HydraServer/client/src/">Home</a></div>
-                <div class="grid-item1"><a onclick="window.location.href='./test.php'">Server Request</a></div>
+                <div class="grid-item1"><a onclick="scrollToTop()">Server Request</a></div>
                 <div class="grid-item1"><a>About</a></div>
                 <div class="grid-item1"><a>Calendar</a></div>
                 <div class="grid-item1"><a>Facilities</a></div>
@@ -38,3 +38,7 @@
     </div>
 </body>
 </html>
+
+<script>
+   function scrollToTop() {window.scrollTo({top: 0, behavior: 'smooth'});}
+</script>

@@ -8,6 +8,7 @@
 <body>
     <div class="header">
         <img class="HydraLabLogo" src="./assets/images/HydraLabLogo.png" alt="HydraLabLogo">
+        <!-- <img class="HydraLabGif" src="./assets/images/computer.gif" alt="HydraLabGif"> -->
     </div>
 </body>
 </html>
