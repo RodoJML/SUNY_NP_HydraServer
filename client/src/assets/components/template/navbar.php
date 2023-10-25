@@ -29,10 +29,18 @@
             $("#requestServer").click(function (e) { 
                 e.preventDefault();
 
+                var modalEnabled = sessionStorage.getItem("modalEnabled");
+                
+                if(modalEnabled == null){
+                    modalEnabled = 1;
+                } else {
+                    modalEnabled = !modalEnabled;
+                }
+
                 $.ajax({
                     type: "GET",
                     url: "assets/components/serverRequest/serverRequest.php",
-                    data: {serverRequest: true},
+                    data: {modalEnabled},
                     dataType: "json",
                     success: function (response) {
                         $(".displayArea").append(response.content).slideDown().show('slow');
