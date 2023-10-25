@@ -25,17 +25,43 @@
 </html>
 
 <script>
+
         $(document).ready(function () {
             $("#requestServer").click(function (e) { 
                 e.preventDefault();
 
+                var modalEnabled = sessionStorage.getItem("modalEnabled");
+
+                console.log("first is" + modalEnabled);
+
+                if(modalEnabled == null) {
+                    console.log("first if ");
+                    modalEnabled = true;
+                } else if(modalEnabled == true) {
+                    console.log("second if ");
+                    modalEnabled = false;
+                } else if(modalEnabled == false) {
+                    console.log("third if ");
+                    modalEnabled = true;
+                }
+
+                console.log(modalEnabled);
+
                 $.ajax({
                     type: "GET",
                     url: "assets/components/serverRequest/serverRequest.php",
-                    data: {modalEnabled = true},
+                    data: {modalEnabled},
                     dataType: "json",
                     success: function (response) {
-                        $(".displayArea").append(response.content).slideDown().show('slow');
+
+                        if(response.modalEnabled == true) {
+                            $(".displayArea").append(response.content).slideDown().show('slow');
+                            sessionStorage.setItem("modalEnabled", true);
+                        } else if(response.modalEnabled == false) {
+                            $(".displayArea").slideUp().hide('slow');
+                            sessionStorage.setItem("modalEnabled", false);
+                        }
+                        
                     }
                 });
             });
