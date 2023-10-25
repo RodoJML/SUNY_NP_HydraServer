@@ -32,20 +32,9 @@
 
                 var modalEnabled = sessionStorage.getItem("modalEnabled");
 
-                console.log("first is" + modalEnabled);
-
-                if(modalEnabled == null) {
-                    console.log("first if ");
-                    modalEnabled = true;
-                } else if(modalEnabled == true) {
-                    console.log("second if ");
+                if(modalEnabled == null){
                     modalEnabled = false;
-                } else if(modalEnabled == false) {
-                    console.log("third if ");
-                    modalEnabled = true;
                 }
-
-                console.log(modalEnabled);
 
                 $.ajax({
                     type: "GET",
@@ -54,14 +43,16 @@
                     dataType: "json",
                     success: function (response) {
 
-                        if(response.modalEnabled == true) {
-                            $(".displayArea").append(response.content).slideDown().show('slow');
-                            sessionStorage.setItem("modalEnabled", true);
-                        } else if(response.modalEnabled == false) {
-                            $(".displayArea").slideUp().hide('slow');
-                            sessionStorage.setItem("modalEnabled", false);
+                        if(response.modalEnabled == true){
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").append(response.content).slideDown().show('slow'); 
                         }
-                        
+                        else{
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").slideUp().hide('slow');
+                            $(".displayArea").empty();
+                        }
+                            
                     }
                 });
             });

@@ -1,7 +1,10 @@
 <?php
     header("Content-Type: application/json");
     
-    if($_GET["modalEnabled"] == "true"){
+    if($_GET["modalEnabled"] == "false"){
+
+        $modalEnabled = true;
+
         echo json_encode(["content" => 
         "
             <div class=\"serverRequest\">
@@ -20,11 +23,11 @@
                     </div>
                 </div>
             </div>
-        ", "modalEnabled" => $_GET["modalEnabled"]]);
+        ", "modalEnabled" => $modalEnabled]);
     } else {
-        echo json_encode(["content" => "", "modalEnabled" => $_GET["modalEnabled"]]);
+        $modalEnabled = false;
+        echo json_encode(["modalEnabled" => $modalEnabled]);
     }
-
 ?>
 
 
