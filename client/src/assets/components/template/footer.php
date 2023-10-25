@@ -32,7 +32,7 @@
                 <div class="grid-item2">&nbsp</div>
             </div>
 
-            <div class="grid-item3">DISCLAIMER: <br/> The view and opinions expressed by the authors and other contributors to this website are theirs alone, and do not necessarily reflect the official policies or positions of SUNY New Paltz or any employee thereof.</div>
+            <div class="grid-item3"> <strong>DISCLAIMER: </strong>The view and opinions expressed by the authors and other contributors to this website are theirs alone, and do not necessarily reflect the official policies or positions of SUNY New Paltz or any employee thereof.</div>
 
 
         </div>
