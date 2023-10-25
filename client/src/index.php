@@ -22,7 +22,7 @@
         <?php include './assets/components/template/header.php'; ?>
         <?php include './assets/components/template/navbar.php'; ?>
         <div class="displayArea" style="display: none"></div>
-        <img class="indexMainPic" src="./assets/images/Hydralabpic.png">
+        <img class="indexMainPic" src="./assets/images/hydralabwithtext.png" alt="indexMainPic">
         <?php include './assets/components/index/labhours.php'; ?>
         <?php include './assets/components/index/announcements.php'; ?>
         <?php include './assets/components/template/footer.php'; ?>

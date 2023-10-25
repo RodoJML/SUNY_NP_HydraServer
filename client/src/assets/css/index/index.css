@@ -3,9 +3,11 @@ body {
     background-size: 22rem;
 }
 
-img.indexMainPic{
-    max-width:100%;
+.indexMainPic{
     margin-top: 2rem;
+    max-width:100%;
 }
+
+
 
 

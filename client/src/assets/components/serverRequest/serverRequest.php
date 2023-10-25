@@ -14,7 +14,7 @@
                         <form action=\"serverRequest.php\" method=\"post\">
                             <label for=\"studentid\">🪪 Student ID</label><br>
                             <input type=\"text\" id=\"studentid\" name=\"studentid\" required><br><br>
-                            <label for=\"name\">🙋 Full Name</label><br>
+                            <label for=\"name\">🧑‍🎓 Full Name</label><br>
                             <input type=\"text\" id=\"name\" name=\"name\" required><br><br>
                             <label for=\"email\">📧 New Paltz Email</label><br>
                             <input type=\"email\" id=\"email\" name=\"email\" required><br><br><br>
