@@ -2,11 +2,11 @@
 
 🚧 Currently under development ... (Last updated October 2023)👷🏼‍♂️<br/>
 
-This website is being developed for one of the servers belonging to the State University of New York at New Paltz. The goal is to create a professional and user-friendly website that will effectively serve the needs of the computer sciene lab and community. 
+This website is being developed for one of the servers belonging to the State University of New York at New Paltz. The goal is to create a professional and user-friendly website that will effectively serve the needs of the computer sciene lab and students 👩‍💻👨‍💻🧑‍💻. 
 
 Committed to ensuring that the website is informative, reliable, and accessible to all users. 
 
-Current Link
+🌎 Current Link
 https://hydra.newpaltz.edu/~rodolfo/SUNY_NP_HydraServer/client/src/
 
 <br/><br/>
