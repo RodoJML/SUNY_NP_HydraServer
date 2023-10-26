@@ -7,5 +7,5 @@ I'm creating this website for the "Hydra" server of the State University of New 
 https://hydra.newpaltz.edu/~rodolfo/SUNY_NP_HydraServer/client/src/
 
 
-<img src="https://www.newpaltz.edu/media/web-assets/logos-images-and-icons/logo_transparent.png" style="width: 3rem">
+<img src="https://www.newpaltz.edu/media/web-assets/logos-images-and-icons/logo_transparent.png" style="width: 10rem">
 
