@@ -75,7 +75,7 @@
                 </div>
             </div>
             <br/><br/><br/>
-            
+
         ", "modalEnabled" => $modalEnabled]);
     } else {
         $modalEnabled = false;
