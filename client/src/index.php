@@ -16,7 +16,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     
-    <title>📙📘 SUNY NP | CS Hydra Lab 💻</title>
+    <title> ⚛️ Hydra Lab | Computer Science SUNY NP </title>
 </head>
 
 <body>    
