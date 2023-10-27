@@ -1,0 +1,28 @@
+.calendar {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.calendar .heading{
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    color: #807BE5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calendar iframe{
+    border-style: solid;
+    border-color: white;
+    border-width: 0.3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px #000000;
+}
+
+.calendar .ggglgif{
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+}

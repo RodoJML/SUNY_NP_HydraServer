@@ -69,7 +69,7 @@
                         for computer science students. Hydra hosts a range of software, tools, and resources
                         that can aid you in your academic and research endeavors. Hydra runs on Ubuntu,
                         providing a versatile and Linux-friendly environment for students to work in.
-                        Students can request an account by filling out the online form (Link here).
+                        Students can request an account by filling out the online form.
                         To learn your way around Linux, check out our resources page.
                         The Hydra Lab at SUNY New Paltz is more than just a place to work on assigments;
                         it's a dynamic space where students can connect, learn, and grow together. Whether 
