@@ -13,8 +13,8 @@
 
                     <div class=\"grid-item1\">
                         
-                        <span class=\"heading\">Welcome </span>  to the Hydra Lab, the heart of computer science innovation at SUNY New Paltz!<br/>
-                            Our lab is not just a place for learning: it's a vibrant hub where students come together to explore,<br/>
+                        <span class=\"heading\">Welcome </span>  to the Hydra Lab, the heart of computer science innovation at <strong>SUNY New Paltz</strong>!<br/>
+                            Our lab is not just a place for learning; it's a vibrant hub where students come together to explore,<br/>
                             collaborate, and immerse themselves in the fascinating world of computer science.
                         </p>
                     </div>
@@ -53,7 +53,11 @@
                     </p>
 
                     <div class=\"grid-item1\">
-                        <h1 class=\"heading\">Meet Hydra- Your Personal Server:</h1>
+                        <h1 class=\"heading\">
+                        Meet Hydra <img src=\"./assets/images/server.gif\" alt=\"servergif\"> Your Personal Server:
+                        </h1>
+                        
+                        
                     </div>
 
                     <div class=\"grid-item2\">
