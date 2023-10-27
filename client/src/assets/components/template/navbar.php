@@ -12,7 +12,7 @@
             <ul class="navbar">
                 <li><a href="../src/index.php">Home</a></li>
                 <li><a id="requestServer">Server Request</a></li>
-                <li><a href="../src/assets/components/about/about.php">About</a></li>
+                <li><a id="about">About</a></li>
                 <li><a>Calendar</a></li>
                 <li><a>Lab Rules</a></li>
                 <li><a>Clubs</a></li>
@@ -26,12 +26,14 @@
 
 <script>
 
-    // This script allows to show and hide the server request modal window
+    // This script allows to show and hide the different options selected from the navbar
     
         $(document).ready(function () {
-            $("#requestServer").click(function (e) { 
-                e.preventDefault();
 
+
+            $("#requestServer").click(function (e) { 
+                
+                e.preventDefault();
                 var modalEnabled = sessionStorage.getItem("modalEnabled");
 
                 if(modalEnabled == null){
@@ -59,5 +61,40 @@
                     }
                 });
             });
+
+
+
+
+            $("#about").click(function (e) { 
+                e.preventDefault();
+
+                var modalEnabled = sessionStorage.getItem("modalEnabled");
+
+                if(modalEnabled == null){
+                    modalEnabled = false;
+                }
+
+                $.ajax({
+                    type: "GET",
+                    url: "assets/components/about/about.php",
+                    data: {modalEnabled},
+                    dataType: "json",
+                    success: function (response) {
+                        if(response.modalEnabled == true){
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").append(response.content).slideDown().show('slow'); 
+                        }
+                        else{
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").slideUp().hide('slow');
+                            $(".displayArea").fadeOut(300, function(){
+                                $(".displayArea").empty();
+                            });
+                        }  
+                    }
+                });
+            });
+            
+
         });
 </script>
