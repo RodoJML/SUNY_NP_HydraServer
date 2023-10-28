@@ -30,6 +30,12 @@
         <?php include './assets/components/template/footer.php'; ?>
     </div>
 
+    <div class="mobile">
+        <img class="mobilepic" src="./assets/images/computer.gif">
+        <h2>📴 This website is ment to be displayed on a desktop computer.</h2>
+        <p>Please visit this website on a desktop computer to view the full website.</p>
+    </div>
+
 </body>
 
 </html>
