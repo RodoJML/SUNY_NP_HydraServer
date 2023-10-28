@@ -1,26 +1,42 @@
 .header{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-header .backgroundReflection{
-    width: 10rem;
+.header .column1{
+    display: flex;
+    grid-column: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header .column2{
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    grid-column: 3;
 }
 
 .header .HydraLabLogo{
-    margin: 2rem;
     max-width: 25rem;
-    width: 100%;
-    height: auto;
+    margin-left: 1rem;
+    max-height: 2.7rem;
+    margin-top: auto;
 }
 
 .header .HydraLabGif{
     margin-left: 1rem;
-    margin-bottom: 1.8rem;
-    margin-right: -1.6rem;
-    max-width: 4rem;
-    width: 100%;
-    height: auto;
-    align-items: center;
+    max-width: 3rem;
 }
 
+.header .npicon{
+    margin-right: 2rem;
+    transition: 0.5s;
+    max-width: 1.5rem;
+    opacity: 0.25;
+}
 
+.header .npicon:hover{
+    transition: 0.5s;
+    opacity: 1;
+}

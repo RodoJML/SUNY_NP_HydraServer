@@ -2,7 +2,6 @@
     background-color: #807BE5;
     color: white;
     text-align: center;
-    padding: 1rem;
     padding-bottom: 2rem;
     font-family: monospace;
 }
@@ -17,20 +16,22 @@
 }
 
 .footer .grid-container1{
-    margin-left: 3rem;
-    text-align: left;
+    padding-right: 2rem;
+    text-align: right;
     grid-column: 1;
     display: grid;
     grid-template-columns: auto;
+    border-right: 1px solid white;
 
 }
 
 .footer .grid-container2{
-    margin-right: 3rem;
-    text-align: right;
+    padding-left: 2rem;
+    text-align: left;
     grid-column: 4;
     display: grid;
     grid-template-columns: auto;
+    border-left: 1px solid white;
 }
 
 .footer .grid-container3{
