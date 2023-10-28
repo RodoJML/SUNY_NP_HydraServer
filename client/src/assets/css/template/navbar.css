@@ -21,7 +21,7 @@
     border-bottom-style: solid;
     border-bottom-color: white;
     text-decoration: none;
-    color: black;
+    color: rgb(64, 64, 64);
 }
 
 .navbar li a:hover {
@@ -29,5 +29,6 @@
     border-bottom-width: 2.5px;
     border-bottom-style: solid;
     border-bottom-color: #807BE5;
-    text-shadow: #807BE5 1px 0 10px;
+    color:black;
+
 }
