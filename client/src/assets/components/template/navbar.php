@@ -14,7 +14,7 @@
                 <li><a id="requestServer">Server Request</a></li>
                 <li><a id="about">About</a></li>
                 <li><a id="calendar">Calendar</a></li>
-                <li><a>Lab Rules</a></li>
+                <li><a ID="rules">Lab Rules</a></li>
                 <li><a>Clubs</a></li>
                 <li><a>Resources</a></li>
             </ul>
@@ -128,6 +128,34 @@
             });
 
 
+            $("rules").click(function (e) { 
+                e.preventDefault();
+                var modalEnabled = sessionStorage.getItem("modalEnabled");
+
+                if(modalEnabled == null){
+                    modalEnabled = false;
+                }
+
+                $.ajax({
+                    type: "GET",
+                    url: "assets/components/rules/rules.php",
+                    data: {modalEnabled},
+                    dataType: "json",
+                    success: function (response) {
+                        if(response.modalEnabled == true){
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").append(response.content).slideDown().show('slow'); 
+                        }
+                        else{
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").slideUp().hide('slow');
+                            $(".displayArea").fadeOut(300, function(){
+                                $(".displayArea").empty();
+                            });
+                        }  
+                    }
+                });
+            });
 
         });
 </script>

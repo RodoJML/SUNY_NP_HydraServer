@@ -1,6 +1,8 @@
 .header{
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-top: 1rem;
+    margin-left: 2rem;
 }
 
 .header .column1{
@@ -25,7 +27,6 @@
 }
 
 .header .HydraLabGif{
-    margin-left: 1rem;
     max-width: 3rem;
 }
 

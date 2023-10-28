@@ -16,7 +16,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     
-    <title> ⚛️ Hydra Lab | Computer Science SUNY NP </title>
+    <title> ⚛️ Hydra Lab | CS SUNY NP</title>
 </head>
 
 <body>    
@@ -31,9 +31,9 @@
     </div>
 
     <div class="mobile">
-        <img class="mobilepic" src="./assets/images/computer.gif">
-        <h2>📴 This website is ment to be displayed on a desktop computer.</h2>
-        <p>Please visit this website on a desktop computer to view the full website.</p>
+        <img class="mobilepic" src="./assets/images/sideways.png">
+        <h2>📴 This website is ment to be displayed on a larger display.</h2>
+        <p>Please visit this website on a desktop computer to view the full website, or turn your device orientation sideways.</p>
     </div>
 
 </body>
