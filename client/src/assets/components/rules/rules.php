@@ -11,7 +11,7 @@
             <h1 class=\"heading\">Rules of the Lab</h1>
 
             <div class=\"mainbody\">
-                <p>Welcome to the SUNY New Paltz Computer Science Lab. 
+                <p>Welcome to the SUNY New Paltz Computer Science Lab.</br>
                 In order to maintain a productive and safe environment for all users,
                 please adhere to the following rules and guidelines while using this facility:</p>
                 
@@ -64,10 +64,12 @@
 
                 <h4>Reporting Issues</h4>
                 <p>
-                    Report any technical issues, safety concerns, or violations of these rules to lab staff. </br>
-                    Failure to comply with these rules may result in loss of lab privileges and/or disciplinary action. 
+                    Report any technical issues, safety concerns, or violations of these rules to lab staff. </br></br>
+                    ⚠️ <span class=\"failure\">Failure</span> to comply with these rules may result in loss of lab privileges and/or disciplinary action. 
                     Thank you for your  cooperation in creating a productive and respectful learning environment.
                 </p>
+
+                <br/><br/>
             </div>
         </div>",
         "modalEnabled" => $modalEnabled]);

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/serverRequest/serverRequest.css">
     <link rel="stylesheet" href="./assets/css/about/about.css">
     <link rel="stylesheet" href="./assets/css/calendar/calendar.css">
+    <link rel="stylesheet" href="./assets/css/rules/rules.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     

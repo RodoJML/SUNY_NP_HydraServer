@@ -30,3 +30,7 @@
     line-height: 1.5rem;
     color: rgb(64, 64, 64);
 }
+
+.rules .failure{
+    color: #807BE5;
+}

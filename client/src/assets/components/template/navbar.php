@@ -14,7 +14,7 @@
                 <li><a id="requestServer">Server Request</a></li>
                 <li><a id="about">About</a></li>
                 <li><a id="calendar">Calendar</a></li>
-                <li><a ID="rules">Lab Rules</a></li>
+                <li><a id="rules">Lab Rules</a></li>
                 <li><a>Clubs</a></li>
                 <li><a>Resources</a></li>
             </ul>
@@ -128,7 +128,7 @@
             });
 
 
-            $("rules").click(function (e) { 
+            $("#rules").click(function (e) { 
                 e.preventDefault();
                 var modalEnabled = sessionStorage.getItem("modalEnabled");
 
