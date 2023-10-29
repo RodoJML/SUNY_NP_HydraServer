@@ -9,17 +9,14 @@
 <body>
     <div class="resources">
 
-        <div class="heading">
-            <h1>Sources</h1>
-        </div>
+        <h1 class="heading">Resources</h1>
 
         <p>Here are some useful developer resources</p>
 
-        <div class="subheading">
-            <h1>Java:</h1>
-
+            <h1 class="subheading">Java:</h1>
+        
             <div class="grid-container">
-                
+
                 <div class="grid-item">
                     <img class="image" src="https://www.w3schools.com/java/pic_java.jpg" alt="Java">
                     <h4 class="title">W3 Schools Java Tutorial</h4>
@@ -37,9 +34,7 @@
                 </div>
 
             </div>
-        </div>
-
-
+    
     </div>
 </body>
 </html>
