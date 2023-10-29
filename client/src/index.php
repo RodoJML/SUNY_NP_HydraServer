@@ -19,11 +19,8 @@
         <?php include './assets/components/template/footer.php'; ?>
     </div>
 
-    <div class="mobile">
-        <img class="mobilepic" src="./assets/images/sideways.png">
-        <h2>📴 This website is ment to be displayed on a larger display.</h2>
-        <p>Please visit this website on a desktop computer to view the full website, or turn your device orientation sideways.</p>
-    </div>
+    <!-- This is displayed for small devices, this is temporary while mobile version is built -->
+    <?php include './assets/components/mobile/mobile.php'; ?>
 
 </body>
 
