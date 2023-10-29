@@ -7,6 +7,15 @@
 
         echo json_encode(["content" => 
         "
+        <!DOCTYPE html>
+        <html lang=\"en\">
+        <head>
+            <meta charset=\"UTF-8\">
+            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+            <title>Rules</title>
+            <link rel=\"stylesheet\" href=\"./assets/css/rules/rules.css\">
+        </head>
+        <body>
         <div class=\"rules\">
             <h1 class=\"heading\">Rules of the Lab</h1>
 
@@ -15,7 +24,7 @@
                 In order to maintain a productive and safe environment for all users,
                 please adhere to the following rules and guidelines while using this facility:</p>
                 
-                <br/><br/>
+                <br/>
                 <h4>Lab Hours:</h4>
                 <p>The lab is open during specific hours posted by the Computer Science Department.
                 Access to the lab is only allowed during these designated hours.</p>
@@ -71,7 +80,9 @@
 
                 <br/><br/>
             </div>
-        </div>",
+        </div>
+        </body>
+        </html>",
         "modalEnabled" => $modalEnabled]);
     } else {
         $modalEnabled = false;

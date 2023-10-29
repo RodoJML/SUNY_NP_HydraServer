@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/template/navbar.css">
         <title>NavBar</title>
-
     </head>
 
     <body>
@@ -15,7 +15,7 @@
                 <li><a id="about">About</a></li>
                 <li><a id="calendar">Calendar</a></li>
                 <li><a id="rules">Lab Rules</a></li>
-                <li><a>Clubs</a></li>
+                <li><a id="clubs">Clubs</a></li>
                 <li><a>Resources</a></li>
             </ul>
         </div>
@@ -139,6 +139,36 @@
                 $.ajax({
                     type: "GET",
                     url: "assets/components/rules/rules.php",
+                    data: {modalEnabled},
+                    dataType: "json",
+                    success: function (response) {
+                        if(response.modalEnabled == true){
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").append(response.content).slideDown().show('slow'); 
+                        }
+                        else{
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").slideUp().hide('slow');
+                            $(".displayArea").fadeOut(300, function(){
+                                $(".displayArea").empty();
+                            });
+                        }  
+                    }
+                });
+            });
+
+
+            $("#clubs").click(function (e) { 
+                e.preventDefault();
+                var modalEnabled = sessionStorage.getItem("modalEnabled");
+
+                if(modalEnabled == null){
+                    modalEnabled = false;
+                }
+
+                $.ajax({
+                    type: "GET",
+                    url: "assets/components/clubs/clubs.php",
                     data: {modalEnabled},
                     dataType: "json",
                     success: function (response) {
