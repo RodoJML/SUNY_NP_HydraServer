@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./assets/css/resources/resources.css">
     <title>Resources</title>
 </head>
+
 <body>
     <div class="resources">
 
