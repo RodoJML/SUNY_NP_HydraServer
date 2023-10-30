@@ -187,7 +187,7 @@
                 });
             });
 
-            
+
             $("#resources").click(function (e) { 
                 e.preventDefault();
                 var modalEnabled = sessionStorage.getItem("modalEnabled");
@@ -215,7 +215,7 @@
                         }  
                     }
                 });
-            }
+            });
 
         });
 </script>

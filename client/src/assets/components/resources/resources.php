@@ -21,7 +21,7 @@
         
                 <h1 class=\"heading\">Resources</h1>
         
-                <p>Discover a treasure trove of software development resources that can turbocharge your coding skills and project success. Explore these valuable links.</p>
+                <p class=\"maindescription\">Discover a treasure trove of software development resources that can turbocharge your coding skills and project success. Explore these valuable links.</p>
         
                     <h1 class=\"subheading\">Java:</h1>
                 
