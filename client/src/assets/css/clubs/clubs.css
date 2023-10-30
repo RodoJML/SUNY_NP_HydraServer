@@ -17,7 +17,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.clubs img{
+.clubs .clubimage{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,9 +36,23 @@
     color: rgb(64, 64, 64);
 }
 
-.clubs img:hover{
+.clubs .clubimage:hover{
     -webkit-transform: scale(0.95);
     -ms-transform: scale(0.95);
     transform: scale(0.95);
     transition: 1s ease;
+}
+
+.clubs .socialmediagrid{
+    text-align: center;
+    display: block;
+}
+
+.clubs .socialicon{
+    width: 1.5rem;
+}
+
+.clubs a{
+    text-decoration: none;
+    color: none;
 }

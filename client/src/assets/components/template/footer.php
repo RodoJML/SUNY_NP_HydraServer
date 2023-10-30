@@ -20,9 +20,9 @@
                 <div class="grid-item1"><a>Clubs</a></div>
             </div>
 
-            <div class="grid-container3">
-                <img class="newpaltzlogo" src="./assets/images/newpaltzlogo.png" alt="">
-            </div>
+            <a class="grid-container3" href="https://www.newpaltz.edu/" target="blank">
+                    <img class="newpaltzlogo" src="./assets/images/newpaltzlogo.png" alt="sunynplogo">
+            </a>
             
             <div class="grid-container2">
                 <div class="grid-item2">Computer Science</div>
