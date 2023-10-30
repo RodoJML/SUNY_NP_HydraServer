@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <ul class="navbar">
-                <li><a href="../src/index.php">Home</a></li>
+                <li><a href="https://hydra.newpaltz.edu/~rodolfo/SUNY_NP_HydraServer/client/src/">Home</a></li>
                 <li><a id="requestServer">Server Request</a></li>
                 <li><a id="about">About</a></li>
                 <li><a id="calendar">Calendar</a></li>
