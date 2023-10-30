@@ -34,3 +34,15 @@
 .rules .failure{
     color: #807BE5;
 }
+
+.rules .usingpcdiv{
+    position: absolute;
+    z-index:0;
+    width: 10rem;
+}
+
+.rules .usingpc{
+    width: 100%;
+    text-align: right;
+    margin-left: 300%;
+}

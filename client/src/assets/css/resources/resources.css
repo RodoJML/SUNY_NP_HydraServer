@@ -75,8 +75,15 @@
     -ms-transform: scale(0.9);
     transform: scale(0.9);
     transition: 1s ease;
+    box-shadow: 0 0.5rem 1rem #807BE5;
+
+}
+.grid-item:hover .title{
+    color: #303030;
+    transition: 1s ease;
 }
 
 .resources .title{
     color: #807BE5;
+    transition: 1s ease;
 }

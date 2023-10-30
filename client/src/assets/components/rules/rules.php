@@ -60,6 +60,9 @@
                 </ul>
 
                 <h4>Personal Software and Data:</h4>
+                <div class=\"usingpcdiv\">
+                    <img class=\"usingpc\" src=\"./assets/images/usingpc.png\" alt=\"usingpc\">
+                </div>
                 <ul>
                     <li>Do not install personal software or store personal data on lab computers.</li>
                     <li>Remove all personal files from the computer before logging off.</li>
