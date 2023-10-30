@@ -16,7 +16,7 @@
                 <li><a id="calendar">Calendar</a></li>
                 <li><a id="rules">Lab Rules</a></li>
                 <li><a id="clubs">Clubs</a></li>
-                <li><a>Resources</a></li>
+                <li><a id="resources">Resources</a></li>
             </ul>
         </div>
 
@@ -186,6 +186,36 @@
                     }
                 });
             });
+
+            
+            $("#resources").click(function (e) { 
+                e.preventDefault();
+                var modalEnabled = sessionStorage.getItem("modalEnabled");
+
+                if(modalEnabled == null){
+                    modalEnabled = false;
+                }
+
+                $.ajax({
+                    type: "GET",
+                    url: "assets/components/resources/resources.php",
+                    data: {modalEnabled},
+                    dataType: "json",
+                    success: function (response) {
+                        if(response.modalEnabled == true){
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").append(response.content).slideDown().show('slow'); 
+                        }
+                        else{
+                            sessionStorage.setItem("modalEnabled", response.modalEnabled);
+                            $(".displayArea").slideUp().hide('slow');
+                            $(".displayArea").fadeOut(300, function(){
+                                $(".displayArea").empty();
+                            });
+                        }  
+                    }
+                });
+            }
 
         });
 </script>
