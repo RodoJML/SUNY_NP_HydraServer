@@ -67,7 +67,9 @@
                                 var name = document.getElementById("name").value;
                                 var email = document.getElementById("email").value;
 
-                                console.log(studentid);
+                                $msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
+
+                                <?php mail("menesesr1@newpaltz.edu","Server Request",$msg); ?>
                                 
                                 $(".modalContent").fadeOut(300);
                                 $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
