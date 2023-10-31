@@ -68,13 +68,6 @@
                                 var email = document.getElementById("email").value;
 
                                 $msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
-
-
-                                <?php 
-                                    if(array_key_exists('name', $_POST)){
-                                        mail("menesesr1@newpaltz.edu","Server Request",$POST['name']);
-                                    }
-                                ?>
                                 
                                 $(".modalContent").fadeOut(300);
                                 $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
