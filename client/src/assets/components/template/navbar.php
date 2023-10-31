@@ -36,7 +36,12 @@
                 var email = $('#email').val();
                 msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
 
-                <?php mail("menesesr1@newpaltz.edu", "Test", "Test");?>
+                <?php
+                    if ($_SERVER['PHP_SELF'] == 'POST'){
+                        mail("menesesr1@newpaltz.edu", "Test", "Test");
+                    }
+                ?>
+
             });
 
             $("#requestServer").click(function (e) { 
