@@ -228,14 +228,22 @@
                 });
             });
 
-        });
+            $("#submit-btn").click(function (e) { 
 
-        <?php
-            if(array_key_exists('submit-btn', $_POST)) { 
-                $msg = "Student ID: " . $_POST['studentid'] . "\n" . "Name: " . $_POST['name'] . "\n" . "Email: " . $_POST['email'];
-                console.log($msg);
-                mail("menesesr1@newpaltz.edu","Server Request",$msg);
-            }
-        ?> 
+                e.preventDefault();
+
+                var studentid = $('#studentid').val();
+                var name = $('#name').val();
+                var email = $('#email').val();
+
+                var msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
+
+                console.log(msg);
+
+                mail("menesesr1@newpaltz.edu", "Server Request", msg);
+
+            });
+
+        });
         
 </script>

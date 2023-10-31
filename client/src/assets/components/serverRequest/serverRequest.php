@@ -28,7 +28,7 @@
                                 <input type=\"text\" id=\"name\" name=\"name\" required><br><br>
                                 <label for=\"email\">📧 New Paltz Email</label><br>
                                 <input type=\"email\" id=\"email\" name=\"email\" required><br><br><br>
-                                <input type=\"submit\" name=\"submit-btn\" value=\"Send Request\">
+                                <input type=\"submit\" id=\"submit-btn\" name=\"submit-btn\" value=\"Send Request\">
                             </form>
                         </div>
                     </div>
