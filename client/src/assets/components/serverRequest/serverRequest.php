@@ -21,7 +21,7 @@
                     <h1 class=\"heading\">Request Server Access</h1>
                     <div class=\"mainModalWindow\">
                         <div class=\"modalContent\">
-                            <form id=\"noRefreshForm\" method=\"post\" action=\"./\">
+                            <form id=\"noRefreshForm\" method=\"POST\" action=\"./\">
                                 <label for=\"studentid\">🪪 Student ID</label><br>
                                 <input type=\"text\" id=\"studentid\" name=\"studentid\" required><br><br>
                                 <label for=\"name\">🧑‍🎓 Full Name</label><br>

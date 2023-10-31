@@ -30,6 +30,9 @@
     
         $(document).ready(function () {
 
+            $('#submit-btn').click(function(){
+                <?php mail("menesesr1@newpaltz.edu", "Test", "Test");?>
+            });
 
             $("#requestServer").click(function (e) { 
                 
@@ -70,13 +73,6 @@
                                 var msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
 
                                 console.log(msg);
-
-                                <?php 
-                                    if (isset($_POST['studentid'])){
-                                        mail("menesesr1@newpaltz.edu", "Test", "Test");
-                                        echo 'alert("message successfully sent")';
-                                    }
-                                ?>
 
                                 $(".modalContent").fadeOut(300);
                                 $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
