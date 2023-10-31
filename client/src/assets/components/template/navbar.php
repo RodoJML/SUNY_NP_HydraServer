@@ -63,6 +63,14 @@
                             document.getElementById("noRefreshForm").addEventListener("submit", function(event){
                                 event.preventDefault()
 
+                                var studentid = $('#studentid').val();
+                                var name = $('#name').val();
+                                var email = $('#email').val();
+
+                                var msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
+
+                                console.log(msg);
+
                                 $(".modalContent").fadeOut(300);
                                 $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
                                 $(".displayArea").delay(1300).slideUp(300).hide('slow');
@@ -226,22 +234,6 @@
                         }  
                     }
                 });
-            });
-
-            $("#submit-btn").click(function (e) { 
-
-                e.preventDefault();
-
-                var studentid = $('#studentid').val();
-                var name = $('#name').val();
-                var email = $('#email').val();
-
-                var msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
-
-                console.log(msg);
-
-                mail("menesesr1@newpaltz.edu", "Server Request", msg);
-
             });
 
         });
