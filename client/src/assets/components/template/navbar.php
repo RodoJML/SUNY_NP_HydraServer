@@ -60,7 +60,19 @@
                         } 
 
                         if(response.serverRequested == true){
-                            console.log($studentid);
+                            document.getElementById("noRefreshForm").addEventListener("submit", function(event){
+                                event.preventDefault()
+                            
+                                var studentid = document.getElementById("studentid").value;
+                                var name = document.getElementById("name").value;
+                                var email = document.getElementById("email").value;
+
+                                console.log(studentid);
+                                
+                                $(".modalContent").fadeOut(300);
+                                $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
+                                $(".displayArea").delay(1300).slideUp(300).hide('slow');
+                            });
                         }
 
                     }
