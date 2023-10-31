@@ -21,14 +21,14 @@
                     <h1 class=\"heading\">Request Server Access</h1>
                     <div class=\"mainModalWindow\">
                         <div class=\"modalContent\">
-                            <form id=\"noRefreshForm\" method=\"POST\" action=\"./\">
+                            <form id=\"noRefreshForm\" method=\"post\" action=\"./\">
                                 <label for=\"studentid\">🪪 Student ID</label><br>
                                 <input type=\"text\" id=\"studentid\" name=\"studentid\" required><br><br>
                                 <label for=\"name\">🧑‍🎓 Full Name</label><br>
                                 <input type=\"text\" id=\"name\" name=\"name\" required><br><br>
                                 <label for=\"email\">📧 New Paltz Email</label><br>
                                 <input type=\"email\" id=\"email\" name=\"email\" required><br><br><br>
-                                <input type=\"submit\" id=\"submit-btn\" value=\"Send Request\">
+                                <input type=\"submit\" name=\"submit-btn\" value=\"Send Request\">
                             </form>
                         </div>
                     </div>
