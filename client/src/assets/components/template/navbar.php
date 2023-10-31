@@ -62,7 +62,7 @@
                         if(response.serverRequested == true){
                             document.getElementById("noRefreshForm").addEventListener("submit", function(event){
                                 event.preventDefault()
-                                
+
                                 $(".modalContent").fadeOut(300);
                                 $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
                                 $(".displayArea").delay(1300).slideUp(300).hide('slow');
@@ -233,6 +233,7 @@
         <?php
             if(array_key_exists('submit-btn', $_POST)) { 
                 $msg = "Student ID: " . $_POST['studentid'] . "\n" . "Name: " . $_POST['name'] . "\n" . "Email: " . $_POST['email'];
+                console.log($msg);
                 mail("menesesr1@newpaltz.edu","Server Request",$msg);
             }
         ?> 
