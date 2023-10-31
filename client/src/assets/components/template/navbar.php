@@ -72,8 +72,9 @@
                                 console.log(msg);
 
                                 <?php 
-                                    if (isset($_POST['action'])){
+                                    if (isset($_POST['studentid'])){
                                         mail("menesesr1@newpaltz.edu", "Test", "Test");
+                                        echo 'alert("message successfully sent")';
                                     }
                                 ?>
 
