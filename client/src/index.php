@@ -27,8 +27,5 @@
 </html>
 
 <script>
-    <?php
-    $msg = "First line of text\nSecond line of text";
-    mail("menesesr1@newpaltz.edu","My subject",$msg);
-    ?>
+    
 </script>
