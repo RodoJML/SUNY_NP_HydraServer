@@ -12,7 +12,7 @@
         <h1 class="heading">Request Server Access</h1>
         <div class="mainModalWindow">
             <div class="modalContent">
-                <form action="serverRequest.php" method="post">
+                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                     <label for="studentid">STUDENT ID #</label><br>
                     <input type="text" id="studentid" name="studentid" required><br><br>
                     <label for="name">FULL NAME</label><br>
@@ -24,7 +24,20 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="grabbedvalues">
+        <?php 
+            $studentid = $_POST["studentid"];
+            $name = $_POST["name"];
+            $email = $_POST["email"];
+            echo "<p>Student ID: $studentid</p>";
+            echo "<p>Name: $name</p>";
+            echo "<p>Email: $email</p>";
+        ?>
+    </div>
+
+
 </body>
 </html>
+
 
