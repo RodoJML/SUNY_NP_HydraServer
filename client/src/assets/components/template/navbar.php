@@ -60,9 +60,7 @@
                         } 
 
                         if(response.serverRequested == true){
-
-  
-
+                            console.log($studentid);
                         }
 
                     }
