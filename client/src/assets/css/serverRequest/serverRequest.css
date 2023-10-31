@@ -52,3 +52,10 @@ label{
     color: rgb(29, 29, 29);
     margin: -1rem;
 }
+
+.mainModalWindow .sentimage{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
