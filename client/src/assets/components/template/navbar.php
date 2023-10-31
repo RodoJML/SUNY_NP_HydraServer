@@ -58,6 +58,13 @@
                                 $(".displayArea").empty();
                             });
                         } 
+
+                        if(response.serverRequested == true){
+
+  
+
+                        }
+
                     }
                 });
             });
