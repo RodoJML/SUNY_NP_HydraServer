@@ -31,16 +31,8 @@
         $(document).ready(function () {
 
             $('#submit-btn').click(function(){
-                var studentid = $('#studentid').val();
-                var name = $('#name').val();
-                var email = $('#email').val();
-                msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
 
-                <?php
-                    if ($_SERVER['PHP_SELF'] == 'POST'){
-                        mail("menesesr1@newpaltz.edu", "Test", "Test");
-                    }
-                ?>
+
 
             });
 
@@ -75,6 +67,22 @@
                         if(response.serverRequested == true){
                             document.getElementById("noRefreshForm").addEventListener("submit", function(event){
                                 event.preventDefault()
+
+                                var studentid = document.getElementById("studentid").value;
+                                var name = document.getElementById("name").value;
+                                var email = document.getElementById("email").value;
+                                var msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
+
+                                $.ajax({
+                                    type: "GET",
+                                    url: "./assets/components/serverRequest/sendMail.php",
+                                    data: {msg},
+                                    dataType: "json",
+                                    success: function (response) {
+                                        console.log(response.content);
+                                    }
+                                });
+                                
                                 $(".modalContent").fadeOut(300);
                                 $(".mainModalWindow").append("<img style='width:10rem; margin-left:33%; margin-top:20%' src=./assets/images/sent.png>").fadeIn(300);
                                 $(".displayArea").delay(1300).slideUp(300).hide('slow');
