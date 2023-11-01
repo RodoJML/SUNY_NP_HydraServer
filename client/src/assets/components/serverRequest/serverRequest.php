@@ -22,12 +22,12 @@
                     <div class=\"mainModalWindow\">
                         <div class=\"modalContent\">
                             <form id=\"noRefreshForm\" method=\"POST\" action=\"./\">
-                                <label for=\"studentid\" placeholder=\"N01234567\">🪪 Student ID</label><br>
-                                <input type=\"text\" id=\"studentid\" name=\"studentid\" required><br><br>
+                                <label for=\"studentid\">🪪 Student ID</label><br>
+                                <input type=\"text\" id=\"studentid\" name=\"studentid\" placeholder=\" N01234567\" required><br><br>
                                 <label for=\"name\">🧑‍🎓 Full Name</label><br>
-                                <input type=\"text\" id=\"name\" name=\"name\" required><br><br>
+                                <input type=\"text\" id=\"name\" name=\"name\" placeholder=\" John Doe\" required><br><br>
                                 <label for=\"email\">📧 New Paltz Email</label><br>
-                                <input type=\"email\" id=\"email\" name=\"email\" required><br><br><br>
+                                <input type=\"email\" id=\"email\" name=\"email\" placeholder=\" email@newpaltz.edu\" required><br><br><br>
                                 <input type=\"submit\" id=\"submitbtn\" name=\"submitbtn\" value=\"Send Request\">
                             </form>
                         </div>
