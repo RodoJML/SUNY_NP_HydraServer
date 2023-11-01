@@ -76,7 +76,7 @@
                                 $.ajax({
                                     type: "GET",
                                     url: "./assets/components/serverRequest/sendMail.php",
-                                    data: {msg},
+                                    data: {message: msg, id: studentid},
                                     dataType: "json",
                                     success: function (response) {
                                         console.log(response.response);
