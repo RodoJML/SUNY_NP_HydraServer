@@ -76,10 +76,10 @@
                                 $.ajax({
                                     type: "GET",
                                     url: "./assets/components/serverRequest/sendMail.php",
-                                    data: {message: msg, id: studentid, fullname: name, emailAddress: email},
+                                    data: {msg},
                                     dataType: "json",
                                     success: function (response) {
-                                        console.log(response.content);
+                                        console.log(response.response);
                                     }
                                 });
                                 
