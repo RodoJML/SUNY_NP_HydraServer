@@ -71,12 +71,12 @@
                                 var studentid = document.getElementById("studentid").value;
                                 var name = document.getElementById("name").value;
                                 var email = document.getElementById("email").value;
-                                var msg = "Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
+                                var msg = "Incoming server access request, information below. \n\n Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
 
                                 $.ajax({
                                     type: "GET",
                                     url: "./assets/components/serverRequest/sendMail.php",
-                                    data: {msg},
+                                    data: {message: msg, id: studentid, fullname: name, emailAddress: email},
                                     dataType: "json",
                                     success: function (response) {
                                         console.log(response.content);
