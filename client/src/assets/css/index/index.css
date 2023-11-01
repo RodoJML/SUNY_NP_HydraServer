@@ -7,6 +7,12 @@ body {
 .indexMainPic{
     margin-top: 2rem;
     max-width:100%;
+    transition: 1s ease;
+}
+
+.indexMainPic:hover{
+    -webkit-filter: brightness(200%);
+    transition: 1s ease;
 }
 
 .mobile {
