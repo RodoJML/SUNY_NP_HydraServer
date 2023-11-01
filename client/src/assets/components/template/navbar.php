@@ -71,7 +71,7 @@
                                 var studentid = document.getElementById("studentid").value;
                                 var name = document.getElementById("name").value;
                                 var email = document.getElementById("email").value;
-                                var msg = "Incoming server access request, information below. \n\n Student ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
+                                var msg = "We got a request for server access, here's the info:\n\nStudent ID: " + studentid + "\n" + "Name: " + name + "\n" + "Email: " + email;
 
                                 $.ajax({
                                     type: "GET",
