@@ -22,7 +22,7 @@
                     <div class=\"mainModalWindow\">
                         <div class=\"modalContent\">
                             <form id=\"noRefreshForm\" method=\"POST\" action=\"./\">
-                                <label for=\"studentid\">🪪 Student ID</label><br>
+                                <label for=\"studentid\">🪪 Student ID (NXXXXXXXX)</label><br>
                                 <input type=\"text\" id=\"studentid\" name=\"studentid\" required><br><br>
                                 <label for=\"name\">🧑‍🎓 Full Name</label><br>
                                 <input type=\"text\" id=\"name\" name=\"name\" required><br><br>
