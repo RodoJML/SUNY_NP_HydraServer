@@ -18,7 +18,6 @@
 }
 
 .clubs .clubimage{
-    opacity:0.5;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,10 +37,10 @@
 }
 
 .clubs .clubimage:hover{
-    opacity:1;
-    -webkit-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-filter: brightness(110%);
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
     transition: 1s ease;
 }
 
