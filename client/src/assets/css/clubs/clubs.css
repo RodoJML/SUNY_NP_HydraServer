@@ -37,10 +37,9 @@
 }
 
 .clubs .clubimage:hover{
-    -webkit-filter: brightness(110%);
-    -webkit-transform: scale(0.98);
-    -ms-transform: scale(0.98);
-    transform: scale(0.98);
+    -webkit-transform: scale(0.985);
+    -ms-transform: scale(0.985);
+    transform: scale(0.985);
     transition: 1s ease;
 }
 
