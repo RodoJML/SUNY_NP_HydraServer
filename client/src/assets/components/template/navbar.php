@@ -30,12 +30,6 @@
     
         $(document).ready(function () {
 
-            $('#submit-btn').click(function(){
-
-
-
-            });
-
             $("#requestServer").click(function (e) { 
                 
                 e.preventDefault();
