@@ -10,11 +10,6 @@ body {
     transition: 1s ease;
 }
 
-.indexMainPic:hover{
-    -webkit-filter: brightness(200%);
-    transition: 1s ease;
-}
-
 .mobile {
     display: none;
 }
