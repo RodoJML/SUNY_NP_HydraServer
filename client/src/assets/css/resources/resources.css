@@ -2,7 +2,7 @@
     margin-left: 5rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    color: #6BA292;
+    color: #517664;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .resources .subheading{
-    color: #6BA292;
+    color: #517664;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
@@ -75,7 +75,7 @@
     -ms-transform: scale(0.9);
     transform: scale(0.9);
     transition: 1s ease;
-    box-shadow: 0 0.5rem 1rem #6BA292;
+    box-shadow: 0 0.5rem 1rem #517664;
 
 }
 .grid-item:hover .title{
@@ -84,6 +84,6 @@
 }
 
 .resources .title{
-    color: #6BA292;
+    color: #517664;
     transition: 1s ease;
 }
