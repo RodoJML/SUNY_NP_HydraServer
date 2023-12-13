@@ -11,7 +11,6 @@
 
         <div class="column1"> 
             <a href="https://hydra.newpaltz.edu/~rodolfo/SUNY_NP_HydraServer/client/src/">
-                <img class="HydraLabGif" src="./assets/images/computer.gif" alt="HydraLabGif">
                 <img class="HydraLabLogo" src="./assets/images/HydraLabLogo.png" alt="HydraLabLogo">
             </a>
             
