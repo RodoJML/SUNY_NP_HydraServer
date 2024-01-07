@@ -1,6 +1,6 @@
 ![HydraLabLogo 13](https://github.com/RodoJML/SUNY_NP_HydraServer/assets/63088555/66a9fd96-ba45-4a6c-b6d2-fbc69b738ef5)
 
-🚧 Currently under development ... (Last updated October 2023)👷🏼‍♂️<br/>
+🚧 Currently under development ... (Last updated December 2023)👷🏼‍♂️<br/>
 
 This website is being developed for one of the servers belonging to the State University of New York at New Paltz. The goal is to create a professional and user-friendly website that will effectively serve the needs of the computer science lab and students 👩‍💻👨‍💻🧑‍💻. 
 
