@@ -13,10 +13,10 @@
 }
 
 .header .column2{
-    text-align: right;
-    margin-top: auto;
-    margin-bottom: auto;
     grid-column: 3;
+    height: 100%;
+    text-align: right;
+    margin-right: -1rem;
 }
 
 .header .HydraLabLogo{

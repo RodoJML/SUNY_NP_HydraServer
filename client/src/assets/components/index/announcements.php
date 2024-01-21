@@ -15,12 +15,12 @@
 
         <div class="grid-container">
             <div class="grid-item1">
-                <img src="https://blog.purelyhr.com/wp-content/uploads/2017/06/BauBnb-e1506104164697.jpg" alt="Avatar" style="width:100%">
+                <img src="https://sites.newpaltz.edu/news/wp-content/uploads/sites/24/2023/03/38F_2C1_4897871_1567339669_4.jpg" alt="Avatar" style="width:100%">
             </div>
             
             <div class="grid-item2">
                 <h1 class="title"> Example Announcement</h1>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="text">With a computer science degree from SUNY New Paltz, you will learn all of the fundamentals needed to be a future self-learner. With small class sizes, personal attention from renowned scholars and collaborations with industry, every computer science student has the opportunity to work with current technology in an environment where project work and skills-development are emphasized.</p>
             </div>
         </div>
 
