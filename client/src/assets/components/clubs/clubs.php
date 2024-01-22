@@ -21,6 +21,45 @@
                         <h1 class=\"heading\">Clubs of Computer Science</h1>
             
                         <div class=\"mainbody\">
+
+                                <div class=\"club\">
+                                <h1 class=\"subheading\">Eleet Coders</h1>
+                                <img class=\"clubimage\" src=\"./assets/images/ecc.png\" alt=\"Eleet Coders Club\" class=\"ecc\">
+                                <p>Eleet Coders club focuses on helping students achieve goals to further 
+                                    their career. This is done through hosted hackathons to network and 
+                                    come up with creative ideas, interview preparation sessions, and 
+                                    resume review. Meetings are every Thursday from 6:30PM to 8:30PM in 
+                                    Science Hall 271. Remember to bring a laptop, notebook, and pencil!
+                                </p>
+                                <div class=\"socialmediagrid\">
+                                    <a href=\"https://www.instagram.com/npeleetcoders/\" target=\"blank\">
+                                        <img src=\"./assets/images/instagram.png\" class=\"socialicon\"></img>
+                                    </a>
+
+                                    <a href=\"mailto:eleetcoders7@gmail.com\">
+                                        <img src=\"./assets/images/mail.png\" class=\"socialicon\"></img>
+                                    </a>
+
+                                    <a href=\"https://eleetcoders.com/\" target=\"blank\">
+                                        <img src=\"./assets/images/website.png\" class=\"socialicon\"></img>
+                                    </a>
+
+                                    <a href=\"https://discord.gg/TMME8psFdN\" target=\"blank\">
+                                        <img src=\"./assets/images/discord.png\" class=\"socialicon\"></img>
+                                    </a>
+
+                                    <a href=\"\" target=\"blank\">
+                                        <img src=\"./assets/images/facebook.png\" class=\"socialicon\"></img>
+                                    </a>
+
+                                    <a href=\"\" target=\"blank\">
+                                        <img src=\"./assets/images/twitter.webp\" class=\"socialicon\"></img>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <br/><br/>
             
                             <div class=\"club\">
                                 <h1 class=\"subheading\">Computer Science Club</h1>
@@ -58,45 +97,7 @@
 
                                 </div>
                             </div>
-            
-                            <br/><br/>
-            
-                            <div class=\"club\">
-                                <h1 class=\"subheading\">Eleet Coders</h1>
-                                <img class=\"clubimage\" src=\"./assets/images/ecc.png\" alt=\"Eleet Coders Club\" class=\"ecc\">
-                                <p>Eleet Coders club focuses on helping students achieve goals to further 
-                                    their career. This is done through hosted hackathons to network and 
-                                    come up with creative ideas, interview preparation sessions, and 
-                                    resume review. Meetings are every Thursday from 6:30PM to 8:30PM in 
-                                    Science Hall 271. Remember to bring a laptop, notebook, and pencil!
-                                </p>
-                                <div class=\"socialmediagrid\">
-                                    <a href=\"https://www.instagram.com/npeleetcoders/\" target=\"blank\">
-                                        <img src=\"./assets/images/instagram.png\" class=\"socialicon\"></img>
-                                    </a>
-
-                                    <a href=\"mailto:eleetcoders7@gmail.com\">
-                                        <img src=\"./assets/images/mail.png\" class=\"socialicon\"></img>
-                                    </a>
-
-                                    <a href=\"https://eleetcoders.com/\" target=\"blank\">
-                                        <img src=\"./assets/images/website.png\" class=\"socialicon\"></img>
-                                    </a>
-
-                                    <a href=\"https://discord.gg/TMME8psFdN\" target=\"blank\">
-                                        <img src=\"./assets/images/discord.png\" class=\"socialicon\"></img>
-                                    </a>
-
-                                    <a href=\"\" target=\"blank\">
-                                        <img src=\"./assets/images/facebook.png\" class=\"socialicon\"></img>
-                                    </a>
-
-                                    <a href=\"\" target=\"blank\">
-                                        <img src=\"./assets/images/twitter.webp\" class=\"socialicon\"></img>
-                                    </a>
-
-                                </div>
-                            </div>
+    
                         </div>
                 </div>
             </body>

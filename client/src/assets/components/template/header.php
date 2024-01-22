@@ -17,6 +17,9 @@
         </div>
 
         <div class="column2">
+            <a href="https://github.com/RodoJML/SUNY_NP_HydraServer" target="_blank">
+                <img class="githubicon" src="https://icones.pro/wp-content/uploads/2021/06/icone-github-violet.png" alt="githubicon">
+
             <a href="https://www.newpaltz.edu/compsci/" target="_blank">
                 <img class="npicon" src="./assets/images/npicon.png" alt="npicon">
             </a>

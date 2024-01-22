@@ -36,7 +36,19 @@
     opacity: 0.25;
 }
 
+.header .githubicon{
+    margin-right: 1rem;
+    transition: 0.5s;
+    max-width: 2.5rem;
+    opacity: 0.25;
+}
+
 .header .npicon:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.header .githubicon:hover{
     transition: 0.5s;
     opacity: 1;
 }
