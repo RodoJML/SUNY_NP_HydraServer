@@ -6,9 +6,9 @@ Project developed for one of the State University of New York servers, using L.A
 
 Committed to ensuring that the website is informative, reliable, and accessible to all users.
 
-✅ Front-end: Completed
-🔴 Back-end: Pending - Not started
-🔴 Responsiveness: Pending - Not started
+✅ Front-end: Completed<br>
+🔴 Back-end: Pending - Not started<br>
+🔴 Responsiveness: Pending - Not started<br>
 
 🌎 Current Link
 https://hydra.newpaltz.edu/~rodolfo/SUNY_NP_HydraServer/client/src/
