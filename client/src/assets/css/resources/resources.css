@@ -75,7 +75,7 @@
     -ms-transform: scale(0.9);
     transform: scale(0.9);
     transition: 1s ease;
-    box-shadow: 0 0.5rem 1rem #517664;
+    box-shadow: 0 0.5rem 1rem #005001;
 
 }
 .grid-item:hover .title{
@@ -84,6 +84,6 @@
 }
 
 .resources .title{
-    color: #517664;
+    color: #005001;
     transition: 1s ease;
 }

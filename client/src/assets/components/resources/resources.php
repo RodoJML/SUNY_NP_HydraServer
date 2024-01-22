@@ -31,7 +31,7 @@
                         <div class=\"grid-item\" >
                             <a href=\"https://docs.oracle.com/javase/tutorial/\" target=\"_blank\">
         
-                                <img class=\"image\" src=\"https://pbs.twimg.com/profile_images/1410016948977422337/rKU8iR89_400x400.png\" alt=\"Java\">
+                                <img class=\"image\" src=\"https://orade.com/wp-content/uploads/2017/10/java-logo.jpg\" alt=\"Java\">
                                 <h4 class=\"title\">
                                     Official Oracle Java Tutorials
                                 </h4>
@@ -88,7 +88,7 @@
                         <div class=\"grid-item\" >
                             <a href=\"https://www.theodinproject.com/\" target=\"_blank\">
         
-                                <img class=\"image\" src=\"https://www.dreamstojourneys.com/wp-content/uploads/2022/03/THE-ODIN-PROJECT-Training-Resources.png\" alt=\"Odin\">
+                                <img class=\"image\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZYpIRTZ2qtRJtqJCBbudE4cXVP6Nh19ZD7rXs91VcnxC0Yu0aBfWUuCqGtmCSgl0Tr3U&usqp=CAU\" alt=\"Odin\">
                                 <h4 class=\"title\">
                                     Odin Project
                                 </h4>
