@@ -7,7 +7,7 @@ Project developed for one of the State University of New York servers, using L.A
 Committed to ensuring that the website is informative, reliable, and accessible to all users.
 
 ✅ Front-end: Completed<br>
-🔴 Back-end: Pending - Not started<br>
+🔴 Back-end: Pending - Not started (Not needed for now)<br>
 🔴 Responsiveness: Pending - Not started<br>
 
 🌎 Current Link
