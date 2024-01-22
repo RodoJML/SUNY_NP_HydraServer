@@ -1,5 +1,4 @@
-![image](https://github.com/RodoJML/SUNY_NP_HydraServer/assets/63088555/c629655f-9315-40aa-8273-2da706fd385f)
-
+![image](https://github.com/RodoJML/SUNY_NP_HydraServer/assets/63088555/2f16e1ac-d152-4d9c-8017-c0cfbacdc7ab)
 
 🚧 Currently under development ... (Last updated January 2024)👷🏼‍♂️<br/>
 
