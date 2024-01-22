@@ -1,4 +1,5 @@
-![HydraLabLogo 13](https://github.com/RodoJML/SUNY_NP_HydraServer/assets/63088555/66a9fd96-ba45-4a6c-b6d2-fbc69b738ef5)
+![image](https://github.com/RodoJML/SUNY_NP_HydraServer/assets/63088555/c629655f-9315-40aa-8273-2da706fd385f)
+
 
 🚧 Currently under development ... (Last updated January 2024)👷🏼‍♂️<br/>
 
